@@ -1,0 +1,89 @@
+.big-footer {
+  background-color: blue;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section ul li i {
+  margin-right: 10px;
+}
+
+.footer-section logo  h1 {
+  font-size: 1.5rem;
+}
+
+.footer-section logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.footer-section logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Makes the logo circular */
+  margin-right: 20px;
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.logo .fab {
+  margin-right: 5px;
+}
+
+.small-footer {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 17, 255);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.small-footer p {
+  margin: 0;
+}
+

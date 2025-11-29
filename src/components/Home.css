@@ -1,0 +1,134 @@
+.home-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.blue { background-color: #004cff; }
+.pink { background-color: #ff69b4; }
+.red { background-color: #dc3545; }
+.green { background-color: #28a745; }
+.purple { background-color: #6f42c1; }
+.yellow { background-color: #ffc107; }
+.orange { background-color: #fd7e14; }
+.teal { background-color: #20c997; }
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #0078d7, #00a878);
+  color: white;
+  padding: 2rem 4rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-left {
+  max-width: 60%;
+}
+
+.section-left h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section-left h2 {
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.section-left p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #006644;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.section-right h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.section-right h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.section-right span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

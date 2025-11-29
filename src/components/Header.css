@@ -1,0 +1,86 @@
+/* Header.css */
+.header {
+    background-color: #004cff; /* Green background */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: bold;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .header-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes the logo circular */
+    margin-right: 20px;
+  }
+  
+  .header-logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center; /* Aligns text and button in one line */
+    gap: 1.5rem;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #cce7cc; /* Slightly lighter green on hover */
+  }
+  
+  .header-contact {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .header-contact p {
+    margin: 0;
+  }
+
+  .small-header {
+    background-color: #454545;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    font-size: 0.8rem;
+  }
+  
+  .small-header p {
+    margin: 0;
+  }
+
+  .header-button {
+    background-color: white;
+    color: #004cff; /* You can choose any color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    vertical-align: middle;
+
+}
+
+.header-button:hover {
+    background-color: #cce7cc; /* Slightly lighter color on hover */
+}
